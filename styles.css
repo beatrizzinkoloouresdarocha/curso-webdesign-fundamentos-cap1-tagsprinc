@@ -1,50 +1,42 @@
+/* Estilizando o corpo do documento */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Definindo uma fonte genérica para todo o documento */
+    line-height: 1.6; /* Definindo o espaçamento entre linhas */
+    margin: 0; /* Removendo margens padrão */
+    padding: 20px; /* Adicionando espaçamento interno */
 }
 
-header {
-    background-color: #161616;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
-section {
-    padding: 20px;
-}
-
+/* Estilizando o título principal */
 h2 {
-    color: #333;
-    font-size: 24px;
+    color: #333; /* Cor do texto */
+    margin-top: 20px; /* Margem superior */
 }
 
-address {
-    font-style: normal;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-li {
-    margin-bottom: 10px;
-}
-
+/* Estilizando os parágrafos */
 p {
-    margin: 0;
+    margin-bottom: 10px; /* Margem inferior */
 }
 
+/* Estilizando a lista */
+ul {
+    list-style-type: none; /* Removendo os marcadores de lista */
+    padding-left: 0; /* Removendo o preenchimento padrão da lista */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilizando os itens da lista */
+li {
+    margin-bottom: 5px; /* Margem inferior */
+}
+
+/* Estilizando os itens em negrito */
+b {
+    color: #000; /* Cor do texto em negrito */
+}
+
+/* Estilizando a linha horizontal */
 hr {
-    border: 0;
-    height: 1px;
-    background-color: #ccc;
-    margin: 20px 0;
+    border: 0; /* Removendo a borda */
+    border-top: 1px solid #ccc; /* Adicionando uma linha horizontal */
+    margin: 20px 0; /* Margem superior e inferior */
 }
