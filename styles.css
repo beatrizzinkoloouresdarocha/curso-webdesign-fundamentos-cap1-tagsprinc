@@ -40,3 +40,7 @@ hr {
     border-top: 1px solid #ccc; /* Adicionando uma linha horizontal */
     margin: 20px 0; /* Margem superior e inferior */
 }
+
+body {
+    background-color: #09d7f3; /* Altere a cor conforme desejado */
+}
